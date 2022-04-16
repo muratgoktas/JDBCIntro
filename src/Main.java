@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		System.out.print(Math.ceil(5.4)); 
 		SelectData();
 		//InsertData();
 		//UpdateData();
@@ -49,7 +50,7 @@ public class Main {
 						
 						if(connection!=null ) {
 						 connection.close();
-						
+						 
 						
 						 }
 					}
